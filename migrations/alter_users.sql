@@ -1,0 +1,1 @@
+ALTER TABLE users modify column user_type enum('A','L','S') NOT NULL COMMENT 'Type of an user whether admin, lecturer or student';
